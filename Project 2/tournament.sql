@@ -11,6 +11,9 @@ CREATE DATABASE tournament;
 \c tournament;
 
 -- Players and Matches table,
+-- Players table stores name of players
+-- Matches table stores the result of a match
+
 DROP TABLE IF EXISTS matches;
 DROP TABLE IF EXISTS players;
 
